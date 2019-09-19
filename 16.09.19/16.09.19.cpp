@@ -97,6 +97,15 @@ int main()
 	swap(a1, b1);
 	cout << "a = " << a1 << endl << "b = " << b1 << endl;
 	*/
+	double v0, x0, t, a = -9.8;
+	cout << "Введите значения для x0 = ";
+	cin >> x0;
+	cout << " v0 = ";
+	cin >> v0;
+	cout << " t = ";
+	cin >> t;
+	cout << " g = -9.8";
+	cout << endl << "Решаем: x(t) = x0 + v0 * t + 1/2 * a * t * t = " << x0 + v0 * t + 1 / 2 * a * t * t;
 
 	system("pause");
 }
